@@ -157,6 +157,10 @@ fieldset {
   position: relative;
 }
 
+.content__list-container:has(.preloader) {
+  overflow: hidden;
+}
+
 .result__video-container {
   height: 386px;
   position: relative;
